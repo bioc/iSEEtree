@@ -85,8 +85,12 @@ plotting functions:
   by different features in different colours. Its interpretation is explained
   in the OMA chapter on
   [Community Composition](https://microbiome.github.io/OMA/docs/devel/pages/21_microbiome_community.html).
-- [ColumnTreePlot](https://microbiome.github.io/iSEEtree/reference/ColumnTreePlot.html)
-- [LoadingPlot](https://microbiome.github.io/iSEEtree/reference/LoadingPlot.html)
+- [ColumnTreePlot](https://microbiome.github.io/iSEEtree/reference/ColumnTreePlot.html):
+  the hierarchical organisation of the samples, where every tip is a sample and
+  the closer the more related they are.
+- [LoadingPlot](https://microbiome.github.io/iSEEtree/reference/LoadingPlot.html):
+  a heatmap or barplot of the loadings or contributions of each feature to the
+  reduced dimensions of PCA, PCoA or another ordination method.
 - [RDAPlot](https://microbiome.github.io/iSEEtree/reference/RDAPlot.html): an
   supervised ordination plot of the samples, where every dot is a sample on a
   reduced dimensional space and every arrow reflects the contribution of a
