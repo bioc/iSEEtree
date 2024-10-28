@@ -11,6 +11,7 @@
 #' \item \code{dimred}, a string specifying the dimred to visualize.
 #' \item \code{layout}, a string specifying abundance layout (barplot or heatmap).
 #' \item \code{ncomponents}, a number indicating the number of components to visualize.
+#' \item \code{add.tree}, a logical indicating whether the tree should be shown.
 #' }
 #'
 #' In addition, this class inherits all slots from its parent \linkS4class{Panel} class.
