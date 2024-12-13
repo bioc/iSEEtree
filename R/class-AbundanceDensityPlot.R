@@ -269,12 +269,13 @@ setMethod(".hideInterface", "AbundanceDensityPlot", function(x, field) {
 })
 
 setMethod(".multiSelectionResponsive", "AbundanceDensityPlot",
-            function(x, dims = character(0)) {
+    function(x, dim = character(0)) {
     
-    if ("row" %in% dims) {
+    if ("row" %in% dim) {
         return(TRUE)
     }
-        return(FALSE)
+    
+    return(FALSE)
 })
 
 #' @importFrom methods callNextMethod
