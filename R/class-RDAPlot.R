@@ -296,9 +296,9 @@ setMethod(".hideInterface", "RDAPlot", function(x, field) {
     }
 })
 
-setMethod(".multiSelectionResponsive", "RDAPlot", function(x, dims = character(0)) {
+setMethod(".multiSelectionResponsive", "RDAPlot", function(x, dim = character(0)) {
     
-    if( "column" %in% dims ){
+    if( "column" %in% dim ){
         return(TRUE)
     }
     return(FALSE)

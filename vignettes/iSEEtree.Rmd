@@ -167,7 +167,8 @@ SCREENSHOT("screenshots/get_started.png", delay=20)
 
 ## Citation
 
-We hope that iSEEtree will be useful for your research. Please use the following information to cite the package and the overall approach. Thank you!
+We hope that iSEEtree will be useful for your research. Please use the following
+information to cite the package and the overall approach. Thank you!
 
 ```{r citation}
 ## Citation info
@@ -176,7 +177,8 @@ citation("iSEEtree")
 
 ## Background Knowledge
 
-iSEEtree is based on many other packages and in particular on those that have implemented the infrastructure needed for dealing with omics data, microbiome
+iSEEtree is based on many other packages and in particular on those that have
+implemented the infrastructure needed for dealing with omics data, microbiome
 data and interactive visualisation. That is, packages like
 [_SummarizedExperiment_](https://bioconductor.org/packages/3.18/bioc/html/SummarizedExperiment.html),
 [_TreeSummarizedExperiment_](https://bioconductor.org/packages/3.18/bioc/html/TreeSummarizedExperiment.html),

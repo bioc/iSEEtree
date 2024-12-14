@@ -265,9 +265,9 @@ setMethod(".hideInterface", "ColumnTreePlot", function(x, field) {
 })
 
 setMethod(".multiSelectionResponsive", "ColumnTreePlot",
-    function(x, dims = character(0)) {
+    function(x, dim = character(0)) {
     
-    if( "column" %in% dims ){
+    if( "column" %in% dim ){
         return(TRUE)
     }
 

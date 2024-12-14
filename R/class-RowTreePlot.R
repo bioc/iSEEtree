@@ -265,9 +265,9 @@ setMethod(".hideInterface", "RowTreePlot", function(x, field) {
 })
 
 setMethod(".multiSelectionResponsive", "RowTreePlot",
-    function(x, dims = character(0)) {
+    function(x, dim = character(0)) {
     
-    if( "row" %in% dims ){
+    if( "row" %in% dim ){
         return(TRUE)
     }
 
